@@ -1,0 +1,93 @@
+@font-face {
+    font-family: 'Venice';
+    src: url('./assets/VeniceClassic.ttf')  format('truetype')
+  }
+
+  @font-face {
+    font-family: 'Mac';
+    src: url('./assets/MAC_DING.ttf')  format('truetype')
+  }
+  
+  html {
+      height:100%;
+      background:black;
+  }
+  
+  body {
+    font-family: 'Venice';
+    font-size: calc(10px + 1vw);
+    line-height: unset;
+  }
+
+  hr{
+      margin:0;
+      margin-bottom:1px;
+  }
+
+  .desktop {
+    width:100vw;
+    height:100vh;
+    background-image: url(./assets/tiny.png);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .window {
+    max-width:600px;
+    max-height:600px;
+    background: white;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border: 1px solid;
+  }
+
+  .window-header{
+      width: 100%;
+      height: 1em;
+      background: white;
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 1px solid;
+  }
+
+  .window-body{
+      padding: 0.5em;
+      display: flex;
+  }
+
+  .bar{
+      height:100%;
+      width:33%;
+      display: flex;    
+      flex-direction: column;
+      justify-content: center;
+  }
+
+  .application{
+      font-family: 'Mac';
+      font-size: 2em;
+  }
+
+  .application-label{
+    padding-left: 5px;
+    padding-right: 5px;
+    color: black;
+  }
+
+  .application-outer{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding:1em;
+  }
+
+  .disks{
+      position: absolute;
+      top:0;
+      right:0;
+  }
