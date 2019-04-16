@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'Venice';
-    src: url('./assets/VeniceClassic.ttf')  format('truetype')
+    src: url(./assets/VeniceClassic.ttf)  format('truetype')
   }
 
   @font-face {
     font-family: 'Mac';
-    src: url('./assets/MAC_DING.ttf')  format('truetype')
+    src: url(./assets/MAC_DING.ttf)  format('truetype')
   }
   
   html {
