@@ -1,11 +1,11 @@
 @font-face {
-    font-family: 'Venice';
-    src: url(./assets/VeniceClassic.ttf)  format('truetype')
+    font-family: 'Title';
+    src: url(./assets/OwreKynge.ttf)  format('truetype')
   }
 
   @font-face {
-    font-family: 'Mac';
-    src: url(./assets/MAC_DING.ttf)  format('truetype')
+    font-family: 'Body';
+    src: url(./assets/Envious_Serif.ttf)  format('truetype')
   }
   
   html {
@@ -14,9 +14,11 @@
   }
   
   body {
-    font-family: 'Venice';
-    font-size: calc(10px + 1vw);
+    font-family: 'Body';
+    font-size: 16px;
     line-height: unset;
+    color:white;
+    image-rendering: pixelated;
   }
 
   hr{
@@ -27,7 +29,8 @@
   .desktop {
     width:100vw;
     height:100vh;
-    background-image: url(./assets/tiny.png);
+    background-image: url(./assets/bg.png);
+    background-size: cover;
     border-radius: 5px;
     display: flex;
     align-items: center;
